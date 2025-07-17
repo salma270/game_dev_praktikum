@@ -1,13 +1,13 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1102 &-8100709502423371464
+--- !u!1102 &-3311374522055647560
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: crow
+  m_Name: crow3
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -20,7 +20,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 5801d0d2c46a3384eb84792f3f197576, type: 2}
+  m_Motion: {fileID: 7400000, guid: 3971f828db4ee2340a9208ccfa22d459, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -36,8 +36,8 @@ AnimatorStateMachine:
   m_Name: Base Layer
   m_ChildStates:
   - serializedVersion: 1
-    m_State: {fileID: -8100709502423371464}
-    m_Position: {x: 200, y: 0, z: 0}
+    m_State: {fileID: -3311374522055647560}
+    m_Position: {x: 405, y: 195, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -47,7 +47,7 @@ AnimatorStateMachine:
   m_EntryPosition: {x: 50, y: 120, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
-  m_DefaultState: {fileID: -8100709502423371464}
+  m_DefaultState: {fileID: -3311374522055647560}
 --- !u!91 &9100000
 AnimatorController:
   m_ObjectHideFlags: 0
